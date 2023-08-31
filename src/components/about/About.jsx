@@ -22,9 +22,9 @@ const About = () => {
           </p>
         </motion.div>
         <motion.div
-        initial={{ x: -400, opacity: 0 }}
-        whileInView={{ x: 0, opacity: 1 }}
-        transition={{ delay: 0.1, duration: 0.5 }}
+        initial={{ y: 400, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.2, duration: 0.5 }}
         
         className="grid grid-cols-1 gap-10 mt-14 md:grid-cols-2 lg:grid-cols-3">
             <div className=" card">
